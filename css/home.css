@@ -1,0 +1,260 @@
+/* Header */
+.header .container {
+    height: 146px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 5;
+}
+.logo-header {
+    width: 120px;
+    height: 70px;
+    margin: auto;
+}
+.nav-items {
+    width: 1028px;
+    height: 42px;
+    margin:0 auto;
+}
+.nav-items_list {
+    width: 1028px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-items_list a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #494949;
+}
+.nav-items_list a:hover {
+    color: #c02323;
+    border-radius: 10px;
+}
+.button-img {
+    width: 161px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+/* banner */
+.banner .container {
+    height: 146px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.banner img {
+    width: 100%;
+    height: 597px;
+}
+/* introduce */
+.introduce {
+    position: relative;
+    height: 650px;
+}
+.introduce .container {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 840px;
+    height: 538px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.introduce-layout {
+    margin: auto;
+    width: 750px;
+    height: 440px;
+    padding: 25px 0;
+    text-align: justify;
+}
+/* figures */
+.figures .container {
+    height: 646px;
+    position: relative;
+    background-color: #001EA3;
+}
+.figures-img {
+    height: 38px;
+}
+.figures-img img {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.figures-inner {    
+    position: relative;
+    width: 1106px;
+    height: 439px;
+    margin: 90px auto;
+    padding-top: 15px;
+}
+.figures-layout1 {
+    top: 14%;
+}
+.figures-layout2 {
+    left: 20%;
+}
+.figures-layout3 {
+    left: 72%;
+}
+.figures-layout4 {
+    top: 92%;
+    left: 50%;
+}
+.figures-years {
+    margin-top: 20px;
+    padding-left: 10px;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+/* BODY-HEAD */
+.body-head {
+    position: relative;
+}
+/* testimon  */
+.testimon {
+    top: 1.5%;
+}
+.testimon .container {
+    height: 650px;
+    background-color: #DDFCFF;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.testimon-text {
+    width: 591.5px;
+    height: 412.5px;
+    margin-top: 80px;
+}
+.testimon-img {
+    width: 472px;
+    height: 476px;
+    margin-top: 120px;
+}
+.testimon-text_title {
+    width: 457.6px;
+    height: 92px;
+}
+.testimon-paragraph {
+    height: 281px;
+    width: 100%;
+    margin-top: 40px;
+}
+.p2 {
+    color: #2C2C2C;
+}
+.testimon-paragraph_person {
+    width: 183px;
+    margin-top: 10px;
+}
+.lower-bar {
+    align-items: center;
+}
+.bar {
+    width: 448px;
+    height: 2.6px;
+}
+.round {
+    width: 17.8px;
+    height: 17.8px;
+    border-radius: 50%;
+}
+/* platinum */
+.platinum {
+    margin-top: 300px;
+}
+.platinum .container {
+    padding: 0;
+}
+
+.banner-platinum {
+    top: 395%;
+    left: 0;
+    padding: 0;
+}
+.banner-platinum img {
+    width: 100%;
+    height: 793px;
+}
+.platinum-inner {
+    text-align: center;
+    top: 46%;
+}
+.platinum-inner h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.platinum-title {
+    width: 1019px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px auto;
+}
+.platinum-bar {
+    width: 292px;
+    height: 1px;
+}
+.platinum-inner_img {
+    display: flex;
+    width: 906px;
+    height: 134px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.frame1 {
+    width: 350px;
+    height: 100%;
+}
+.frame2 {
+    width: 432px;
+    height: 100px;
+}
+/* gold */
+.gold .container {
+    height: 400px;
+    background-color: #FFFFFF;
+    padding-top: 1%;
+}
+.gold-title {
+    width: 636px;
+    height: 43px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.gold-bar {
+    width: 139px;
+    height: 1px;
+}
+.gold-img1 {
+    width: 1195px;
+    height: 104px;
+    align-items: center;
+    gap: 130px;
+}
+.gold-img2 {
+    width: 1199px;
+    height: 67px;
+    align-items: center;
+    gap: 96px;
+}
+/* footer */
+.footer {
+    top: 596%;
+    background-color: #27336F;
+    height: 118px;
+}
+.footer-text {
+    color: #FFFFFF;
+    padding-top: 50px ;
+}
+.icon-footer {
+    color: #FFFFFF;
+    margin: 0 5px 0 5px ;
+}
